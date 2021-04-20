@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import {Text} from "./components/Text.js"
+import {Button} from './components/Button.js'
 
 function App() {
   return (
@@ -7,8 +9,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Free biscuits!
         </p>
+        <Text name="Steve" />
+        <Text name="Larry" />
+        <Button /> 
         <a
           className="App-link"
           href="https://reactjs.org"
