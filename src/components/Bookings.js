@@ -1,3 +1,4 @@
+import '../styles/Bookings.css'
 export function Bookings ( props ) {
     return(
         <div className="Bookings">

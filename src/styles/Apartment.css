@@ -1,0 +1,20 @@
+.apartment {
+    max-width: 1024px;
+    margin: 1em auto;
+}
+
+.h2 {
+    color: grey;
+
+}
+
+.banner-image {
+    max-width: 1024px;
+    margin: 1em auto;
+    
+
+}
+
+.banner-text {
+    text-align: left;
+}
