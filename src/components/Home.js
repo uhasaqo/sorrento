@@ -1,12 +1,16 @@
 import '../styles/Home.css'
+import '../App.css'
+import {Banner} from './Banner'
+import BannerImage from '../banners/beth-hope-h_qQdUOxQ9Y-unsplash.jpg'
 
 export function Home ( props ) {
     return(
-        <div className="Home">
-            <h2>Home</h2>
-            <div className="Video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/KE0SbDBw-ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+        <div className="background">
+        <div className="home">
+            <h2>Welcome to Sorrento by the Sea</h2>
+            <div className="video">
+                <iframe width="572" height="315" src="https://www.youtube.com/embed/KE0SbDBw-ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <article class="card">
             <div className="Content">
             <p>On the Mornington Peninsula (one hour from Melbourne) next door to Portsea.
             Our apartment is a lazy 10-minute walk from the relaxed township of Sorrento that offers restaurants, cafes, a chemist, a supermarket, a butcher and lots more. It is located in a quiet avenue, just 4 houses from the beach. It is in easy walking distance of the ocean beaches and surf.</p>
@@ -15,7 +19,10 @@ export function Home ( props ) {
             Two TVs are sure to make everyone happy!  An undercover BBQ area with seating offers plenty of space to stretch out and enjoy that cup of freshly brewed coffee or a glass of wine. This is the perfect place for a home away from home.    
             </p>
             </div>
+            </article>
         </div>
+        </div>
+
         )
     }
 

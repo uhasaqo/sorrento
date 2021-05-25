@@ -1,4 +1,4 @@
-import Logo from './SORRENTOLOGO.png';
+import Logo from './SORRENTOLOGOPALE.png';
 import './App.css';
 import {Switch,Route} from 'react-router-dom'
 import {Home} from './components/Home'

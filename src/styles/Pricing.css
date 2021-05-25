@@ -1,0 +1,47 @@
+.Pricing {
+    max-width: 1024px;
+    margin: 1em auto;
+    padding-bottom: 15px;
+    color: #87423c;
+}
+
+.content {
+    line-height: 150%;
+    position: relative;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+
+.card {
+    color: black;
+}
+
+.card2 {
+    color: black;
+}
+
+
+.grid h3,h4 {
+    color: #4d1d18; 
+}
+
+.banner {
+    /* object-fit: cover; */
+}
+
+#button {
+    margin-top: 1em;
+    align: center;
+    width: 100px;
+    background-color:#754F5B;
+    color: white;
+    padding: 0.5em;
+    border-bottom: 30px;
+    border: 1px #754F5B;
+    border-radius: 10px;
+}

@@ -1,6 +1,7 @@
 const BannerStyle = {
     minHeight: '50vh',
     minWidth: '100%',
+    // position: 'relative'
 }
 
 const BannerImage = {
@@ -9,6 +10,7 @@ const BannerImage = {
     height: '50vh',
     objectFit: 'cover',
     objectPosition: 'center',
+    // display: 'block',
     zIndex: 9
 }
 
