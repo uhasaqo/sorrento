@@ -3,11 +3,12 @@
     /* background-color: lightblue; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .logo {
     height: 100px;
-    
+
 }
 
 .logo:hover {
@@ -41,4 +42,5 @@
 .navigation a:hover {
     color: #555;
     background-color: rgb(251, 216, 120);
+    
 }

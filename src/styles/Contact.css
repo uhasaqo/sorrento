@@ -1,6 +1,7 @@
 .Contact {
     max-width: 1024px;
     margin: 1em auto;
+    /* line-height:  150%; */
     
 }
 
@@ -8,42 +9,28 @@
     color: #87423c;
 }
 
-.row {
-    display: inline-flex;
-    width: 601px;
+textarea {
+    width: 300px;
     
-}
-
-.column {
-    float: left;
-    padding: 50px;
-    min-width: 50vh;
-    
-}
-
-.column2 {
-    float: right;
-    display: table-column;
-    clear: both;
-    min-width: 50vh;
-    margin-top: 3.1em;
-    margin-right: 
 }
 
 #contact-form {
-    display: flex;
+    display:flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 #contact-form label {
     font-weight: bold;
-    margin-top: 1em;
 }
 
 #contact-form input{
     padding: 0.5em;
     box-sizing: border-box;
+    border: 1px solid rgb(19, 77, 200);
+    max-width: 350px;
+
 }
 
 #contact-form textarea{
@@ -51,8 +38,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: smaller;
-    width: 250px;
+    width: 350px;
     height: 100px;
+    border: 1px solid rgb(19, 77, 200);
+    resize: none;
 
 }
 
@@ -60,9 +49,16 @@
     margin-top: 1em;
     align-self: center;
     width: 150px;
-    background-color:black;
+    background-color:rgb(0, 0, 0);
     color: white;
     padding: 0.5em;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-column: span 2;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px; 
 }

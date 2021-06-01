@@ -12,8 +12,9 @@
 
 .grid {
     display: grid;
+    grid-area: span;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+    
 }
 
 
@@ -36,7 +37,7 @@
 
 #button {
     margin-top: 1em;
-    align: center;
+    align-items: center;
     width: 100px;
     background-color:#754F5B;
     color: white;

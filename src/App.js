@@ -8,16 +8,16 @@ import {Pricing} from './components/Pricing'
 import {Bookings} from './components/Bookings'
 import {Contact} from './components/Contact'
 import {NotFound} from './components/NotFound'
- 
 import {Header} from './components/Header'
+import {Footer} from './components/Footer'
 
 const NavItems = [
-  {"name" : "Home", "link" : "/"},
-  {"name" : "The Apartment", "link" : "/apartment"},
-  {"name" : "Locality", "link" : "/Locality"},
-  {"name" : "Pricing", "link" : "/pricing"},
-  {"name" : "Bookings", "link" : "/bookings"},
-  {"name" : "Contact", "link" : "/contact"}
+  {"name" : "home", "link" : "/"},
+  {"name" : "the apartment", "link" : "/apartment"},
+  {"name" : "locality", "link" : "/Locality"},
+  {"name" : "pricing", "link" : "/pricing"},
+  {"name" : "bookings", "link" : "/bookings"},
+  {"name" : "contact", "link" : "/contact"}
 ]
 
 function App() {
@@ -55,7 +55,8 @@ function App() {
     </Switch>
 
      </main>
-     <footer className="footer"></footer>
+     <Footer />
+
    </div>
   );
 }

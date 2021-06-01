@@ -1,3 +1,43 @@
+import '../styles/Footer.css'
+export function Footer(props) {
+  return (
+  <footer class = "main-footer">
+
+      <nav class="social-nav">
+        <a href="https://facebook.com/SorrentobytheSea">
+          <i class="fab fa-facebook-square"></i>
+          </a>
+        <a href="https://instagram.com/SorrentobytheSea">
+          <i class="fab fa-instagram-square"></i>
+          </a>
+        <a href="https://twitter.com/SorrentobytheSea">
+          <i class="fab fa-twitter-square"></i>
+          </a>
+        <a href="https://youtube.com/SorrentobytheSea">
+          <i class="fab fa-youtube-square"></i>
+          </a>
+      </nav>
+      <p class="copyright-note">&copy; 2021 Sorrento by the Sea</p>
+  </footer>
+  )
+}
+
+
+export default Footer
+
+
+{/* <footer class="main-footer">
+        <p class="copyright"><b>&copy; 2021 uhasaqo webdev</b></class>
+        <nav class="social-nav">
+            <a href="https://twitter.com" , title="Twitter" , alt="Twitter">
+                <i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" , title="Instagram" , alt="Instagram">
+                <i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com" , title="Facebook" , alt="Facebook">
+                <i class="fab fa-facebook"></i></a>
+        </nav>
+    </footer> */}
+
 /* <script>
 window.addEventListener("load", activateStickyFooter);
 

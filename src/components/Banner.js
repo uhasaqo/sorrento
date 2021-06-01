@@ -6,6 +6,7 @@ const BannerStyle = {
 
 const BannerImage = {
     position: 'absolute',
+    // width: '1920px',
     width: '100%',
     height: '50vh',
     objectFit: 'cover',

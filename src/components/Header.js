@@ -15,7 +15,7 @@ export function Header ( props ) {
     } )
     return ( 
         <header className="header">
-            <img className="logo" src={props.logo} />
+           <Link to = "/"><img className="logo" alt="Sorrento by the Sea logo" label="Sorrento by the Sea logo" src={props.logo} /></Link> 
             <nav className="navigation">
                 {Navigation}
             </nav>
