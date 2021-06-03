@@ -1,5 +1,6 @@
-import Logo from './SORRENTOLOGOPALE.png';
-import './App.css';
+import Logo from './sorrentologonew.png'
+import './App.css'
+import './responsive.css'
 import {Switch,Route} from 'react-router-dom'
 import {Home} from './components/Home'
 import {Apartment} from './components/Apartment'
@@ -13,7 +14,7 @@ import {Footer} from './components/Footer'
 
 const NavItems = [
   {"name" : "home", "link" : "/"},
-  {"name" : "the apartment", "link" : "/apartment"},
+  {"name" : "apartment", "link" : "/apartment"},
   {"name" : "locality", "link" : "/Locality"},
   {"name" : "pricing", "link" : "/pricing"},
   {"name" : "bookings", "link" : "/bookings"},
@@ -25,7 +26,7 @@ function App() {
    <div className="website">
      <Header logo ={Logo} nav={NavItems} />
      <header className="header"></header>
-     {/* change content - only part that will change across the website */}
+
      <main className="content">
      <Switch>
         <Route exact path="/">

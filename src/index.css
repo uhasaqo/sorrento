@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Helvetica', 'Calibri';
+  font-family: 'Helvetica', 'Calibri', 'Arial';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

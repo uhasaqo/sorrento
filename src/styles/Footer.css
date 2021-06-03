@@ -1,42 +1,69 @@
 .main-footer {
-display:grid;
+display: grid;
+position: relative;
 grid-auto-columns: 1fr 1fr 1fr;
-grid-template-rows: auto;
-padding-bottom: 0px;
-height:50px;
+grid-template-rows: 1;
+height:60px;
 overflow:hidden;    
+background-color: #F6BD60;
+font-size: 110%;
+color:#87423c;
+position: end;
 }
 
 .copyright { 
     font-size: 0.705em; /* 10px/16=0.875em */
-    justify-self: start;
-    padding-left: 8px;
-    align-self:baseline;
-    color:rgb(92, 1, 6);
+    justify-self: left;
+    margin-left: 30px;
+    align-self:center;
+    /* padding-left: 8px; */
+    /* align-self:center; */
     grid-column-start: 1;
     letter-spacing: 2px;
     /* text-size-adjust: auto; */
     text-align:left;
-    height:40px;
+
+  }
+
+.address-footer {
+    align-self:center;
+    letter-spacing: 2px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-items: center;
+    justify-self:center;
+    font-size: 0.705em;
+
+  }
+
+  .contact-footer {
+    align-self: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    align-items: center;
+    justify-self:center;
+    font-size: 0.705em;
   }
   
   .social-nav { 
-    /* grid-column-start: 3;
+    grid-column-start: 3;
     grid-row-start: 1;
-    justify-self: end;
-    height:50px;
-    align-self:baseline; */
+    align-items: center;
+    justify-self: right;
+    align-self: center;
+    margin-right: 30px;
+  
   }
   
   .social-nav a {
-    color: ;
+    color:#87423c; ;
     /* text-decoration:none; */
     padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     min-height: 100vh;
   }
   
   .social-nav a:hover {
-    color: #5a0505;;
+    color: #555;;
   }

@@ -1,7 +1,7 @@
 .Locality {
     max-width: 1024px;
     margin: 1em auto;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     color: #87423c;
     
 }
@@ -10,15 +10,3 @@
     color: #4d1d18;
 }
 
-.content {
-    color: black;
-    line-height: 150%;
-    position: relative;
-    color: black;
-    
-    /* grid-template-columns: 1fr 1fr; */
-}
-
-.card {
-    color: black;
-}

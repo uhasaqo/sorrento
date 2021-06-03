@@ -1,14 +1,17 @@
 const BannerStyle = {
     minHeight: '50vh',
     minWidth: '100%',
+    
     // position: 'relative'
 }
 
 const BannerImage = {
+    display: 'block',
     position: 'absolute',
     // width: '1920px',
     width: '100%',
     height: '50vh',
+    margin: '0', 
     objectFit: 'cover',
     objectPosition: 'center',
     // display: 'block',
@@ -18,6 +21,7 @@ const BannerImage = {
 const TextStyle = {
     position: "absolute",
     width: '100%',
+    margin: '0',
     textAlign: 'center',
     top: '50%',
     zIndex: 99
