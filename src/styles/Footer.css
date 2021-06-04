@@ -9,6 +9,12 @@ background-color: #F6BD60;
 font-size: 110%;
 color:#87423c;
 position: end;
+
+}
+
+.main-footer a {
+  text-decoration: none;
+  color: #87423c
 }
 
 .copyright { 
@@ -19,9 +25,11 @@ position: end;
     /* padding-left: 8px; */
     /* align-self:center; */
     grid-column-start: 1;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     /* text-size-adjust: auto; */
     text-align:left;
+    font-size: 70%;
+    line-height: 105%;
 
   }
 

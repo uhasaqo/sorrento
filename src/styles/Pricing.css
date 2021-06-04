@@ -1,16 +1,23 @@
 .Pricing {
     max-width: 1024px;
     margin: 1em auto;
-    color: #87423c;
+   
 }
 
 .button {
     margin-top: 1em;
     align-self: left;
-    width: 150px;
+    width: 120px;
         background-color:rgb(0, 0, 0);
         color: white;
         padding: 0.5em;
-        border: 1px solid rgb(0, 0, 0);
-        border-radius: 10px;
+       
     }
+
+.button a a:active {
+    color: white;
+}
+
+.Pricing a:visited {
+    color: white;
+}

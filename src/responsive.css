@@ -6,15 +6,13 @@
         display: block;
         position: relative;
         max-width: fit-content;
-        header > content {margin: 0}
-        
+        header > content {margin: 0}        
     
     }
 
-    
 
     h1 {
-        margin: 25px;
+        /* margin: 25px; */
         display:inline-block;
     }
 
@@ -24,7 +22,6 @@
     
     header.header {
         display: flex;
-        
         position:relative;
         justify-self:baseline;
         flex-direction: column;
@@ -69,12 +66,10 @@
         display: block;
         grid-area: 375px;
         position: relative;
-        /* max-width: fit-content; */
         align-self: center;
         max-width: -moz-fit-content;
         max-height: -moz-fit-content;
         overflow: hidden;
-        
     
     }
 
@@ -111,22 +106,6 @@
         grid-column: span 2;
     }
 
-    /* .logo {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 2;
-        position: relative;
-        align-items: center;
-
-    }
-    
-    .header {
-        
-        display: grid;
-        grid-template-rows: 2 auto;
-        max-width: fit-content;
-    } */
-    
     .navigation {
         display: inline-block;
         justify-self: start;
@@ -156,7 +135,4 @@
         
     }
 
-    /* .p {
-        
-    } */
 }
