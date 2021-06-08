@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/sorrento/static/css/main.365660ef.chunk.css",
-    "main.js": "/sorrento/static/js/main.5b22f1d2.chunk.js",
-    "main.js.map": "/sorrento/static/js/main.5b22f1d2.chunk.js.map",
-    "runtime-main.js": "/sorrento/static/js/runtime-main.24df58a0.js",
-    "runtime-main.js.map": "/sorrento/static/js/runtime-main.24df58a0.js.map",
-    "static/js/2.1a4ba39e.chunk.js": "/sorrento/static/js/2.1a4ba39e.chunk.js",
-    "static/js/2.1a4ba39e.chunk.js.map": "/sorrento/static/js/2.1a4ba39e.chunk.js.map",
-    "static/js/3.8e41cc69.chunk.js": "/sorrento/static/js/3.8e41cc69.chunk.js",
-    "static/js/3.8e41cc69.chunk.js.map": "/sorrento/static/js/3.8e41cc69.chunk.js.map",
+    "main.css": "/sorrento/static/css/main.9ce7bca2.chunk.css",
+    "main.js": "/sorrento/static/js/main.bc104509.chunk.js",
+    "main.js.map": "/sorrento/static/js/main.bc104509.chunk.js.map",
+    "runtime-main.js": "/sorrento/static/js/runtime-main.09415c21.js",
+    "runtime-main.js.map": "/sorrento/static/js/runtime-main.09415c21.js.map",
+    "static/js/2.a42f3f14.chunk.js": "/sorrento/static/js/2.a42f3f14.chunk.js",
+    "static/js/2.a42f3f14.chunk.js.map": "/sorrento/static/js/2.a42f3f14.chunk.js.map",
+    "static/js/3.edb98fe1.chunk.js": "/sorrento/static/js/3.edb98fe1.chunk.js",
+    "static/js/3.edb98fe1.chunk.js.map": "/sorrento/static/js/3.edb98fe1.chunk.js.map",
     "index.html": "/sorrento/index.html",
-    "static/css/main.365660ef.chunk.css.map": "/sorrento/static/css/main.365660ef.chunk.css.map",
-    "static/js/2.1a4ba39e.chunk.js.LICENSE.txt": "/sorrento/static/js/2.1a4ba39e.chunk.js.LICENSE.txt",
-    "static/media/SORRENTOLOGOPALE.f7fa73ca.png": "/sorrento/static/media/SORRENTOLOGOPALE.f7fa73ca.png",
+    "static/css/main.9ce7bca2.chunk.css.map": "/sorrento/static/css/main.9ce7bca2.chunk.css.map",
+    "static/js/2.a42f3f14.chunk.js.LICENSE.txt": "/sorrento/static/js/2.a42f3f14.chunk.js.LICENSE.txt",
+    "static/media/apartment_bath.1db7b006.jpg": "/sorrento/static/media/apartment_bath.1db7b006.jpg",
+    "static/media/apartment_front.5f1062c2.jpg": "/sorrento/static/media/apartment_front.5f1062c2.jpg",
+    "static/media/apartment_garden.172f48c2.jpg": "/sorrento/static/media/apartment_garden.172f48c2.jpg",
     "static/media/banner-gaiser.b3ef606b.jpg": "/sorrento/static/media/banner-gaiser.b3ef606b.jpg",
     "static/media/beth-hope-h_qQdUOxQ9Y-unsplash.72b8796a.jpg": "/sorrento/static/media/beth-hope-h_qQdUOxQ9Y-unsplash.72b8796a.jpg",
+    "static/media/mitchell-luo-tide.d8f563ac.jpg": "/sorrento/static/media/mitchell-luo-tide.d8f563ac.jpg",
     "static/media/nao-takabayashi-uM9EEuc69g0-unsplash (1).82eab9f9.jpg": "/sorrento/static/media/nao-takabayashi-uM9EEuc69g0-unsplash (1).82eab9f9.jpg",
-    "static/media/pat-whelen-GlmJnvANTrg-unsplash.9c1ea487.jpg": "/sorrento/static/media/pat-whelen-GlmJnvANTrg-unsplash.9c1ea487.jpg"
+    "static/media/pat-whelen-GlmJnvANTrg-unsplash.9c1ea487.jpg": "/sorrento/static/media/pat-whelen-GlmJnvANTrg-unsplash.9c1ea487.jpg",
+    "static/media/pat-whelen-cliff.b388a8e6.jpg": "/sorrento/static/media/pat-whelen-cliff.b388a8e6.jpg",
+    "static/media/patwhelen-unsplash-boardwalk.2c2e8877.jpg": "/sorrento/static/media/patwhelen-unsplash-boardwalk.2c2e8877.jpg",
+    "static/media/patwhelen-unsplash-rockpool.b6a9b74e.jpg": "/sorrento/static/media/patwhelen-unsplash-rockpool.b6a9b74e.jpg",
+    "static/media/patwhelen-unsplash-track.03732880.jpg": "/sorrento/static/media/patwhelen-unsplash-track.03732880.jpg",
+    "static/media/sorrentologonew.179348e1.png": "/sorrento/static/media/sorrentologonew.179348e1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.24df58a0.js",
-    "static/js/2.1a4ba39e.chunk.js",
-    "static/css/main.365660ef.chunk.css",
-    "static/js/main.5b22f1d2.chunk.js"
+    "static/js/runtime-main.09415c21.js",
+    "static/js/2.a42f3f14.chunk.js",
+    "static/css/main.9ce7bca2.chunk.css",
+    "static/js/main.bc104509.chunk.js"
   ]
 }
