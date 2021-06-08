@@ -18,15 +18,11 @@ position: end;
 }
 
 .copyright { 
-    font-size: 0.705em; /* 10px/16=0.875em */
+    font-size: 0.705em; 
     justify-self: left;
     margin-left: 30px;
     align-self:center;
-    /* padding-left: 8px; */
-    /* align-self:center; */
     grid-column-start: 1;
-    /* letter-spacing: 2px; */
-    /* text-size-adjust: auto; */
     text-align:left;
     font-size: 70%;
     line-height: 105%;
@@ -65,7 +61,6 @@ position: end;
   
   .social-nav a {
     color:#87423c; ;
-    /* text-decoration:none; */
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;

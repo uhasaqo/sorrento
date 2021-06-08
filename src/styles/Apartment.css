@@ -11,29 +11,6 @@
     
 }
 
-.banner {
-    /* background-image: url('../banners/beth-hope-h_qQdUOxQ9Y-unsplash.jpg'); */
-}
-
-/* .column {
-    max-width: 1024px;
-    float: left;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-}
-
-.row {
-    max-width: 1024px;
-    float: left;
-    width: 100%;
-    padding: 10px;
-    display: flex;
-
-  } */
-
-
-
 main.content {
     max-width: 1024px;
     position: relative;
@@ -52,18 +29,3 @@ main.content {
     position:absolute;
     
 }
-
-
-/* 
-.apartment h2, h3, h4 {
-    color: #4d1d18;
-} */
-
-/* .text-style {
-    text-align: center;
-} */
-
-/* .column {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-} */

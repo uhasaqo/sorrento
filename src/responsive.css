@@ -34,7 +34,14 @@
     .banner {
         text-size-adjust: auto;
         text-justify: auto;
+        margin-top: -45px;
         /* min-width: 40px; */
+    }
+
+ p.address-footer {
+        justify-content: space-between;
+        font-size: 60%;
+        line-height: 130%;
     }
 
     .card {
@@ -50,6 +57,9 @@
         max-width:fit-content;
     }
 
+    .logo {
+        align-items: center;
+    }
     /* . content { 
         margin: auto 10px;
         position: relative;
@@ -73,9 +83,25 @@
     
     }
 
-    .banner img {
-        max-height: 40vh;
-        min-width: 40vh;
+    .content, h1 {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-bottom: auto;
+    }
+
+    .banner, .p {
+        margin-top: -50px;
+    }
+
+    .grid {
+        justify-content: space-evenly;
+        grid-gap: 5px;
+    }
+
+    .img, .iframe {
+        max-height: 20vh;
+        max-width: 20vh;
+    
     }
     .card {
         display: block;
@@ -94,6 +120,7 @@
         align-self: center;
         flex-direction: column;
         margin-right: none;
+        justify-content: center
     }
 
     .body {
@@ -104,30 +131,31 @@
     .card {
         display: inline;
         grid-column: span 2;
+        margin-top: -25px;
     }
 
     .navigation {
         display: inline-block;
-        justify-self: start;
+        justify-self: center;
         flex-direction: column;
         grid-column: span 2;
+        margin-bottom: 10px;
         
     }
 
     .navigation a {
-        display: grid;
+        /* display: grid;
         position: relative;
         align-items: center;
-        justify-self: start
+        justify-content: space-evenly; */
+        
     }
 
-    .iframe {
-        min-height: 40vh;
-        min-width: 40vh;
-        overflow: hidden;
-    }
+  
 
     .footer {
+        display: inline-block;
+        overflow: hidden;
 
     }
 
@@ -135,4 +163,26 @@
         
     }
 
-}
+}/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+    /* (A) BREAK INTO VERTICAL MENU */
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+    //* (B) SHOW HAMBURGER ICON */
+    #hamnav label { 
+      display: inline-block; 
+      color: white;
+      background: #a02620;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { display: block; }
+  }

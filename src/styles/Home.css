@@ -15,36 +15,3 @@
     color: #87423c;
     
 }
-
-
-.content{
-    /* grid-column-gap: 30px; */
-    /* margin: auto 100px;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 40px;
-    
-    background-color: stee;
-    line-height: 150%;
-    padding-top: 15px;
-    margin-top: auto;
-    
-    /* font-size:smaller; */
-    /* color: rgb(255, 255, 255); */
-
-}
-
-.card {
-    /* color: black; */
-}
-
-/* .background {
-    background-color: #E6E6E9;
-} */
-
-/* .banner {
-    min-height: 50vh;
-    display: grid;
-    grid-column: 1 / span 4;
-} */

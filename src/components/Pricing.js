@@ -3,7 +3,6 @@ import BannerImage from '../banners/nao-takabayashi-uM9EEuc69g0-unsplash (1).jpg
 import '../styles/Pricing.css'
 import { Link } from 'react-router-dom'
 
-
 export function Pricing(props) {
     return (
         <div className="Pricing">
@@ -45,15 +44,8 @@ export function Pricing(props) {
                         <Link to="/contact" className="button">Book your stay</Link>
                         <p></p>
                         <p></p>
-                        
-
-                    
-
                 </div>
             </div>
-
-
-
 
         </div>
 

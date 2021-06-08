@@ -1,8 +1,5 @@
 import '../styles/Contact.css'
 
-
-
-
 export function Contact(props) {
     return (
         <div className="Contact">
@@ -14,19 +11,19 @@ export function Contact(props) {
                         action="https://example.com/handler"
                         method="post"
                     >
-                        {/* name */}
+                        {/* Contact form name */}
                         <label htmlFor="name">Name: </label>
                         <input id="name" name="name" type="text" required min='2' max='50' placeholder="Your name" />
-                        {/* email */}
+                        {/* Contact form email */}
                         <label htmlFor="email">Email: </label>
                         <input id="email" name="email" type="text" required max='50' placeholder="your@email.com" />
-                        {/* phone */}
+                        {/* Contact form phone */}
                         <label htmlFor="email">Phone: </label>
                         <input id="phone" name="phone" type="text" min='10' max='10' placeholder="0400100200 (optional)" />
-                        {/* message */}
+                        {/* Contact form message */}
                         <label htmlFor="name">Message: </label>
                         <textarea id="message" rows="5" cols="100" required min='10' max='100' placeholder="Please enter your message and your booking dates!"></textarea>
-                        {/* <button type="reset">Clear form</button> */}
+                        {/* Contact form button */}
                         <button id="button" type="submit"
                             action=""
                             method="post" onSubmit=""

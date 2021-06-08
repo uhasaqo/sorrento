@@ -1,7 +1,7 @@
 const BannerStyle = {
     minHeight: '50vh',
     minWidth: '100%',
-    
+
     // position: 'relative'
 }
 
@@ -11,7 +11,7 @@ const BannerImage = {
     // width: '1920px',
     width: '100%',
     height: '50vh',
-    margin: '0', 
+    margin: '0',
     objectFit: 'cover',
     objectPosition: 'center',
     // display: 'block',
@@ -27,13 +27,13 @@ const TextStyle = {
     zIndex: 99
 }
 
-export function Banner (props) {
+export function Banner(props) {
     return (
         <div className="banner" style={BannerStyle}>
             <img src={props.image} className="banner-image" style={BannerImage} />
-        <h2 className="banner-text" style={TextStyle}>{props.text}</h2>
+            <h2 className="banner-text" style={TextStyle}>{props.text}</h2>
         </div>
-    
+
 
     )
 }
