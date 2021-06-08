@@ -3,12 +3,13 @@ import BannerImage from '../banners/nao-takabayashi-uM9EEuc69g0-unsplash (1).jpg
 import '../styles/Pricing.css'
 import { Link } from 'react-router-dom'
 
+
 export function Pricing(props) {
     return (
         <div className="Pricing">
             <Banner image={BannerImage} altText="Pricing" label="Pricing" />
             <br></br>
-            <h1>Pricing / Terms</h1>
+            <h1>Pricing</h1>
             <div className="grid">
 
                 <div className="card">
@@ -33,7 +34,7 @@ export function Pricing(props) {
                 <div className="card">
                     <h2>Terms and Conditions</h2><p></p>
                     <ul>
-                        <li>We are a <b>pet-friendly</b> destination!</li>
+                        <li>Our accomodation is <b>pet-friendly</b>.</li>
                         <li>The apartment is strictly <b>non-smoking</b></li>
                         <li>Total amount is payable upon booking</li>
                         <li>A full refund will be given prior to 30 days cancellation</li>

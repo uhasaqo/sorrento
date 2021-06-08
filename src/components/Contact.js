@@ -2,6 +2,7 @@ import '../styles/Contact.css'
 
 
 
+
 export function Contact(props) {
     return (
         <div className="Contact">
@@ -21,14 +22,14 @@ export function Contact(props) {
                         <input id="email" name="email" type="text" required max='50' placeholder="your@email.com" />
                         {/* phone */}
                         <label htmlFor="email">Phone: </label>
-                        <input id="phone" name="phone" type="text" min='10' max='10' placeholder="0400100200" />
+                        <input id="phone" name="phone" type="text" min='10' max='10' placeholder="0400100200 (optional)" />
                         {/* message */}
                         <label htmlFor="name">Message: </label>
                         <textarea id="message" rows="5" cols="100" required min='10' max='100' placeholder="Please enter your message and your booking dates!"></textarea>
                         {/* <button type="reset">Clear form</button> */}
                         <button id="button" type="submit"
                             action=""
-                            method="post"
+                            method="post" onSubmit=""
                         > Submit</button>
 
                     </form>

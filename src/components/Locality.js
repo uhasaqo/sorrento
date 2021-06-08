@@ -6,6 +6,7 @@ import TidePhoto from '../images/mitchell-luo-tide.jpg'
 
 
 
+
 export function Locality(props) {
     return (
         <div className="Locality">
@@ -43,7 +44,7 @@ export function Locality(props) {
                 Sorrento and Mornington will not disappoint. Bookshops, giftware, home living and of course the odd handbag or "must have that" top is yours for the exploring.<p></p>
                     <h3>Water Sports</h3><p></p>
                 Endless Fun for all the family. Sailing, fishing, kayaking, paddle boarding, snorkeling, scuba diving and surfing are all on offer, not to mention the cricket match on the beach.<p></p>
-                < img src = {TidePhoto} text = "Ocean Back Beach" altText="Back Beach Shore" width="470" height="250"/>
+                < img src = {TidePhoto} text = "Ocean Back Beach" altText="Back Beach Shore" title = "Sorrento tide &copy; Mitchell Luo" width="470" height="250"/>
                 </div>
             </div>
             

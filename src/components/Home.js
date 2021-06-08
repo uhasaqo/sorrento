@@ -5,6 +5,7 @@ import BannerImage from '../banners/pat-whelen-GlmJnvANTrg-unsplash.jpg'
 import BackBeachCliff from '../images/pat-whelen-cliff.jpg'
 
 
+
 export function Home(props) {
     return (
 
@@ -16,7 +17,7 @@ export function Home(props) {
             <div className="grid">
                 <div className="card">
                     <h2>About</h2>
-                    <h3>A luxury self-contained and pet-friendly apartment!</h3>
+                    <h3>A luxury self-contained and pet-friendly apartment</h3>
                     <p>On the Mornington Peninsula (one hour from Melbourne) next door to Portsea.
                     Our apartment is a lazy 10-minute walk from the relaxed township of Sorrento that offers restaurants, cafes, a chemist, a supermarket, a butcher and lots more. It is located in a quiet avenue, just 4 houses from the beach. It is in easy walking distance of the ocean beaches and surf.</p>
                     <p>Your private luxury apartment consists of a spacious living area with leather lounge suite overlooking a sun drenched, tree-filled private garden.A separate kitchenette has everything you need to make your stay relaxed and comfortable. A queen sized bedroom and an amazing bathroom complete with free standing black bath entices you to relax and unwind. </p>
@@ -33,7 +34,7 @@ export function Home(props) {
                 </div>
                 <div className="card">
                 <p></p>
-                <img src = {BackBeachCliff} text = "Back Beach Cliff" altText="Back Beach Cliff" width="490" height="300"/>
+                <img src = {BackBeachCliff} text = "Back Beach Cliff" altText="Back Beach Cliff" title="Sorrento coastal walk (&copy; Pat Whelen)" width="490" height="300"/>
                     <h2>Getting there</h2>
                     <h3>How to get to Sorrento by the Sea </h3>
                     <p>It is easy to find. From Melbourne, take the Monash Freeway, connect onto the Eastlink heading for Portsea, then onto the Peninsula link to Sorrento. Another option is the scenic drive around the beach. Although longer, it allows you to experience the coastline from Port Melbourne to Sorrento. </p>

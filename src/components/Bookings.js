@@ -4,6 +4,7 @@ import BannerImage from '../banners/beth-hope-h_qQdUOxQ9Y-unsplash.jpg'
 import Rockpool from '../images/patwhelen-unsplash-rockpool.jpg'
 import WalkingTrack from '../images/patwhelen-unsplash-track.jpg'
 
+
 export function Bookings ( props ) {
     return(
         <div className="Bookings">
@@ -17,8 +18,8 @@ export function Bookings ( props ) {
             We look forward to hosting your stay!
             <div className="grid">
             <div className="card">
-            <img src = {Rockpool} text = "Rockpool" altText="Rockpool" width="490" height="300"/></div>
-            <div className="card"><img src = {WalkingTrack} text = "Walking track" altText="Walking track" width="490" height="300"/>
+            <img src = {Rockpool} text = "Rockpool" altText="Rockpool" title="Sorrento beach (&copy; Pat Whelen)" width="490" height="300"/></div>
+            <div className="card"><img src = {WalkingTrack} text = "Walking track" title="Beach walkingtrack (&copy; Pat Whelen)" altText="Walking track" width="490" height="300"/>
             </div>
             </div>
         </div>

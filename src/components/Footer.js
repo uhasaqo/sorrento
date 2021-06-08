@@ -3,7 +3,7 @@ export function Footer(props) {
   return (
   <footer className = "main-footer">
       
-      <p className="copyright"><b> &copy; 2021 Sorrento by the Sea </b>(website + apartment photos)<br></br>All other photos are used under CC Licenses from <a href="https://unsplash.com">Unsplash.</a></p>
+      <p className="copyright"><b> &copy; 2021 Sorrento by the Sea </b><br></br></p>
       <p className="address-footer"><b>0435 123 456 / 42 Holyrood Avenue, Sorrento, Victoria 3943</b></p>
 
       <nav className="social-nav">

@@ -5,11 +5,12 @@ import ApptFront from "../images/apartment_front.jpg"
 import ApptBath from "../images/apartment_bath.jpg"
 import ApptGarden from "../images/apartment_garden.jpg"
 
+
 export function Apartment(props) {
     return (
-            
+        
             <div className="apartment">
-                <Banner image={BannerImage} alt="The Apartment" />
+                <Banner image={BannerImage} alt="Sorrento Back Beach shoreline" />
                 <br></br>
 
                 <h1>The Apartment</h1>
@@ -39,15 +40,15 @@ export function Apartment(props) {
                 
                 <div className="card">
                 <figure>
-                    < img src = {ApptFront} text = "Front view apartment" altText="Apartment front view" />
+                    < img src = {ApptFront} text = "Front view apartment" altText="Apartment front view" title="Apartment front view" />
                         
                 </figure>
                 <figure>
-                    <img src = {ApptGarden} text = "Apartment garden" altText="Apartment garden"/>
+                    <img src = {ApptGarden} text = "Apartment garden" altText="Apartment garden" title="Apartment garden"/>
                         
                 </figure>   
                 <figure>
-                <img src = {ApptBath} text = "Apartment bath" altText="Apartment bath" height="300" /> 
+                <img src = {ApptBath} text = "Apartment bath" altText="Apartment bath" title="Apartment bathroom" height="300" /> 
                         
                 </figure>
                 </div>
