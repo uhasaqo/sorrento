@@ -1,5 +1,6 @@
 import '../styles/Bookings.css'
 import { Banner } from './Banner'
+import { Link } from 'react-router-dom'
 import BannerImage from '../banners/beth-hope-h_qQdUOxQ9Y-unsplash.jpg'
 import Rockpool from '../images/patwhelen-unsplash-rockpool.jpg'
 import WalkingTrack from '../images/patwhelen-unsplash-track.jpg'
@@ -12,8 +13,9 @@ export function Bookings(props) {
 
             <br></br>
             <h1>Bookings</h1>
-            To make a booking, please text or call <strong>0435 123 456 </strong> or use the form on our <b><a href="/contact">Contact</a></b> page.
-            <p><b>Prices</b> and <b>terms and conditions</b> are shown on our <b><a href="/pricing">Pricing</a></b> page.</p>
+            To make a booking, please text or call <strong>0435 123 456 </strong> or use the form on our <b> <Link to="/contact">Contact</Link></b> page.
+            <p><b>Prices</b> and <b>terms and conditions</b> are shown on our <b>
+            <Link to="/contact">Pricing</Link></b> page.</p>
             We look forward to hosting your stay!
             <div className="grid">
                 <div className="card">
