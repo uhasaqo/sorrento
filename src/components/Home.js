@@ -32,7 +32,7 @@ export function Home(props) {
                 <div className="card">
                     <p></p>
                     
-                    <iframe width="490" height="300" src="https://www.youtube.com/embed/KE0SbDBw-ok" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture: center" allowFullScreen></iframe>
+                    <iframe width="490" height="310" src="https://www.youtube.com/embed/KE0SbDBw-ok" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture: center" allowFullScreen></iframe>
 
                     <h2>Getting there</h2>
                     <h3>How to get to Sorrento by the Sea </h3>

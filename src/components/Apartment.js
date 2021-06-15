@@ -40,15 +40,15 @@ export function Apartment(props) {
 
                 <div className="card">
                     <figure>
-                        < img src={ApptFront} text="Front view apartment" altText="Apartment front view" title="Apartment front view" />
+                        < img src={ApptFront} text="Front view apartment" alt="Apartment front view" title="Apartment front view" />
 
                     </figure>
                     <figure>
-                        <img src={ApptGarden} text="Apartment garden" altText="Apartment garden" title="Apartment garden" />
+                        <img src={ApptGarden} text="Apartment garden" alt="Apartment garden" title="Apartment garden" />
 
                     </figure>
                     <figure>
-                        <img src={ApptBath} text="Apartment bath" altText="Apartment bath" title="Apartment bathroom" height="300" />
+                        <img src={ApptBath} text="Apartment bath" alt="Apartment bath" title="Apartment bathroom" height="300" />
 
                     </figure>
                 </div>
