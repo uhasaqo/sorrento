@@ -8,9 +8,10 @@ export function Contact(props) {
                     <h1>Contact Us</h1>
 
                     <form id="contact-form"
-                        action="https://example.com/handler"
-                        method="post"
-                    >
+                        action="mailto:james.cotterell2@studytafensw.edu.au"
+                        // "https://example.com/handler"
+                        method="post">
+                    
                         {/* Contact form name */}
                         <label htmlFor="name">Name: </label>
                         <input id="name" name="name" type="text" required min='2' max='50' placeholder="Your name" />
@@ -19,13 +20,14 @@ export function Contact(props) {
                         <input id="email" name="email" type="text" required max='50' placeholder="your@email.com" />
                         {/* Contact form phone */}
                         <label htmlFor="email">Phone: </label>
-                        <input id="phone" name="phone" type="text" min='10' max='10' placeholder="0400100200 (optional)" />
+                        <input id="phone" name="phone" label="Phone number field"
+                            type="text" min='10' max='10' placeholder="0400100200 (optional)" />
                         {/* Contact form message */}
                         <label htmlFor="name">Message: </label>
-                        <textarea id="message" rows="5" cols="100" required min='10' max='100' placeholder="Please enter your message and your booking dates!"></textarea>
+                        <textarea id="message" rows="5" cols="100" required min='10' max='100' label="Text area for your message" placeholder="Please enter your message and your booking dates!"></textarea>
                         {/* Contact form button */}
                         <button id="button" type="submit"
-                            action=""
+                            action="mailto:james.cotterell2@studytafensw.edu.au"
                             method="post" onSubmit=""
                         > Submit</button>
 

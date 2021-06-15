@@ -1,6 +1,5 @@
 import Logo from './sorrentologonew.png'
 import './App.css'
-import './responsive.css'
 import {Switch,Route} from 'react-router-dom'
 import {Home} from './components/Home'
 import {Apartment} from './components/Apartment'

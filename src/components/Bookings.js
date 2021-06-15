@@ -8,7 +8,7 @@ export function Bookings(props) {
     return (
         <div className="Bookings">
 
-            <Banner image={BannerImage} label="Bookings" altText="Bookings" />
+            <Banner image={BannerImage} label="Bookings page" altText="Bookings"/>
 
             <br></br>
             <h1>Bookings</h1>
@@ -17,8 +17,8 @@ export function Bookings(props) {
             We look forward to hosting your stay!
             <div className="grid">
                 <div className="card">
-                    <img src={Rockpool} text="Rockpool" altText="Rockpool" title="Sorrento beach (&copy; Pat Whelen)" width="490" height="300" /></div>
-                <div className="card"><img src={WalkingTrack} text="Walking track" title="Beach walkingtrack (&copy; Pat Whelen)" altText="Walking track" width="490" height="300" />
+                    <img src={Rockpool} text="Rockpool" alt="Sorrento Beach" title="Sorrento beach" label ="Sorrento beach (&copy; Pat Whelen)" width="490" height="300" /></div>
+                <div className="card"><img src={WalkingTrack} text="Walking track" title="Beach walkingtrack (&copy; Pat Whelen)" label="Walking track" alt="Walking track" width="490" height="300" />
                 </div>
             </div>
         </div>

@@ -2,7 +2,6 @@ import '../styles/Home.css'
 import '../App.css'
 import { Banner } from './Banner'
 import BannerImage from '../banners/pat-whelen-GlmJnvANTrg-unsplash.jpg'
-import BackBeachCliff from '../images/pat-whelen-cliff.jpg'
 
 export function Home(props) {
     return (
@@ -32,7 +31,9 @@ export function Home(props) {
                 </div>
                 <div className="card">
                     <p></p>
-                    <img src={BackBeachCliff} text="Back Beach Cliff" altText="Back Beach Cliff" title="Sorrento coastal walk (&copy; Pat Whelen)" width="490" height="300" />
+                    
+                    <iframe width="490" height="300" src="https://www.youtube.com/embed/KE0SbDBw-ok" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture: center" allowFullScreen></iframe>
+
                     <h2>Getting there</h2>
                     <h3>How to get to Sorrento by the Sea </h3>
                     <p>It is easy to find. From Melbourne, take the Monash Freeway, connect onto the Eastlink heading for Portsea, then onto the Peninsula link to Sorrento. Another option is the scenic drive around the beach. Although longer, it allows you to experience the coastline from Port Melbourne to Sorrento. </p>

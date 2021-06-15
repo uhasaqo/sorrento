@@ -3,6 +3,7 @@ import '../styles/Locality.css'
 import { Banner } from './Banner'
 import BannerImage from '../banners/patwhelen-unsplash-boardwalk.jpg'
 import TidePhoto from '../images/mitchell-luo-tide.jpg'
+import BackBeachCliff from '../images/pat-whelen-cliff.jpg'
 
 export function Locality(props) {
     return (
@@ -32,7 +33,7 @@ export function Locality(props) {
 
                 <div className="card">
                     <p></p>
-                    <iframe width="470" height="300" src="https://www.youtube.com/embed/KE0SbDBw-ok" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture: center" allowFullScreen></iframe>
+                    <img src={BackBeachCliff} text="Back Beach Cliff" altText="Back Beach Cliff" title="Sorrento coastal walk (&copy; Pat Whelen)" width="470" height="300" />
 
                     <h3>Arts and Culture</h3><p></p>
                 The Mornington Peninsula hosts an array of exhibitions and galleries, featuring fine art, sculpture, ceramics, jewelry, hand blown glass and clothing. Small local galleries and craft markets are in abundance across the region.<p></p>

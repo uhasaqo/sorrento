@@ -10,7 +10,7 @@ export function Apartment(props) {
     return (
 
         <div className="apartment">
-            <Banner image={BannerImage} alt="Sorrento Back Beach shoreline" />
+            <Banner image={BannerImage} alt="Sorrento Back Beach shoreline" label="Sorrento Back Beach shoreline" />
             <br></br>
 
             <h1>The Apartment</h1>
