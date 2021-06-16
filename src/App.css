@@ -5,6 +5,10 @@
     line-height: 150%;
 }
 
+.body{
+    height: 100%;
+}
+
 .banner-image {
     overflow: hidden;
 }
