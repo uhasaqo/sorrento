@@ -36,7 +36,7 @@ export function Contact(props) {
                         <textarea id="message" rows="5" cols="100" required min='10' max='100' label="Text area for your message" placeholder="Please enter your message and your booking dates!"></textarea>
                         {/* Contact form button */}
                         <button id="button" type="submit"
-                            action="mailto:james.cotterell2@studytafensw.edu.au"
+                            action="mailto:your@email.com"
                             method="post" onSubmit=""
                         > Submit</button>
 
