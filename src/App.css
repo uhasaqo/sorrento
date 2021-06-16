@@ -1,12 +1,13 @@
+html, body, main.content {
+    height: 100%;
+}
+
 .website {
     background-color: #fae0b3; 
     text-rendering: optimizeSpeed;
     color:#87423c;
     line-height: 150%;
-}
-
-.body{
-    height: 100%;
+    
 }
 
 .banner-image {
@@ -26,6 +27,17 @@
 a:hover {
     color: #555;
 
+}
+
+.content a {
+    color: rgb(136, 24, 46);
+    text-decoration: none;
+}
+
+a.button {
+    color: white;
+    background-color: #000000;
+    text-decoration: none
 }
 
 .content a:visited {

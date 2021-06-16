@@ -2,7 +2,7 @@
 display: grid;
 position: relative;
 grid-auto-columns: 1fr 1fr 1fr;
-grid-template-rows: 1;
+grid-template-rows: 2;
 height:60px;
 overflow:hidden;    
 background-color: #F6BD60;

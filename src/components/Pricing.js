@@ -38,10 +38,9 @@ export function Pricing(props) {
                         <li>Total amount is payable upon booking</li>
                         <li>A full refund will be given prior to 30 days cancellation</li>
                         <li>50% refund will be given after 30 days of cancellation</li>
-                        <li>In the event of a weekly or monthly booking the apartment will be serviced weekly unless by
-                    prior arrangement.</li></ul><p></p>
+                        <li>In the event of a weekly or monthly booking the apartment will be serviced weekly unless by prior arrangement.</li></ul><p></p>
                     <h2>Act now!</h2>
-                        <Link to="/contact" className="button">Book your stay</Link>
+                        <Link to="/contact" className="button" title="Book now!"><b>Book your stay</b></Link>
                         <p></p>
                         <p></p>
                 </div>

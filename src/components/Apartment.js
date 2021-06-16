@@ -40,11 +40,11 @@ export function Apartment(props) {
 
                 <div className="card">
                     <figure>
-                        < img src={ApptFront} text="Front view apartment" alt="Apartment front view" title="Apartment front view" />
+                        < img src={ApptFront} text="Front view apartment" alt="Apartment front view" title="Apartment front view" width="110%" />
 
                     </figure>
                     <figure>
-                        <img src={ApptGarden} text="Apartment garden" alt="Apartment garden" title="Apartment garden" />
+                        <img src={ApptGarden} text="Apartment garden" alt="Apartment garden" title="Apartment garden" width="110%" />
 
                     </figure>
                     <figure>

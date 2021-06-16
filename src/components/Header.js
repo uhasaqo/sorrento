@@ -15,7 +15,7 @@ export function Header(props) {
     })
     return (
         <header className="header">
-            <Link to="/"><img className="logo" alt="Sorrento by the Sea logo" label="Sorrento by the Sea logo" src={props.logo} /></Link>
+            <Link to="/"><img className="logo" alt="Sorrento by the Sea logo" title="Sorrento by the Sea | 0435 123 456" src={props.logo} /></Link>
             <nav className="navigation">
 
                 {Navigation}
